@@ -3,7 +3,7 @@
 @font-face {
   font-family: 'Quinshy';
   src: url('/fonts/Quinshy/Quinshy.woff2') format('woff2'),
-    /* Modern Browsers */ url('/fonts/Quinshy/Quinshy.otf') format('opentype'); /* Safari, Android, iOS */
+    url('/fonts/Quinshy/Quinshy.otf') format('opentype');
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
@@ -12,3 +12,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .mirror-background {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .mirror-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/assets/images/Pagination.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: scaleX(-1);
+    z-index: -1;
+  }
+}

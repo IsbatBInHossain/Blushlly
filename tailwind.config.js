@@ -23,6 +23,9 @@ export default {
         viadaloka: ['Vidaloka', 'serif'],
         quinshy: ['Quinshy', 'sans-serif'],
       },
+      backgroundImage: {
+        hero: "url('/assets/images/Pagination.jpg')",
+      },
     },
   },
   plugins: [],

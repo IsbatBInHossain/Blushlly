@@ -1,4 +1,4 @@
-import Button from './Button'
+import Button from './shared/Button'
 
 const Navbar = () => {
   return (
@@ -16,14 +16,14 @@ const Navbar = () => {
               <img
                 src='/assets/icons/instagram.svg'
                 alt='instagram'
-                className=' w-6 h-6'
+                className=' w-5 h-5'
               />
             </li>
             <li className=' w-8 h-8 object-contain border border-primary rounded-full flex justify-center items-center'>
               <img
                 src='/assets/icons/threads.svg'
                 alt='threads'
-                className=' w-6 h-6'
+                className=' w-5 h-5'
               />
             </li>
             <li className=' w-8 h-8 object-contain'>
