@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types'
 
-const Card = ({ textAlign, subtitle, title, width }) => {
+const Card = ({ subtitle, title, width }) => {
   return (
     <div
-      className={`text-${textAlign} border border-white pl-14 pr-14 pt-10 pb-10 z-10 h-fit`}
+      className={`text-left border border-white pl-14 pr-14 pt-10 pb-10 z-10 h-fit`}
       style={{ width: `${width}px` }}
     >
       <div className={`flex flex-col text-white `}>
@@ -22,7 +22,6 @@ const Card = ({ textAlign, subtitle, title, width }) => {
 }
 
 Card.propTypes = {
-  textAlign: PropTypes.oneOf(['left', 'center', 'right']).isRequired,
   subtitle: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   width: PropTypes.string.isRequired,

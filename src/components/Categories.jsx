@@ -1,4 +1,4 @@
-import CategoryCard from './shared/CategoryCard'
+import CategoryCard from './cards/CategoryCard'
 
 const Categories = () => {
   return (
