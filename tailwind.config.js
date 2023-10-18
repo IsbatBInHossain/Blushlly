@@ -21,6 +21,7 @@ export default {
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
         viadaloka: ['Vidaloka', 'serif'],
+        quinshy: ['Quinshy', 'sans-serif'],
       },
     },
   },

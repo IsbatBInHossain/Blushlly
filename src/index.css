@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Vidaloka&display=swap');
 
+@font-face {
+  font-family: 'Quinshy';
+  src: url('/fonts/Quinshy/Quinshy.woff2') format('woff2'),
+    /* Modern Browsers */ url('/fonts/Quinshy/Quinshy.otf') format('opentype'); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
