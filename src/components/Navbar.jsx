@@ -2,7 +2,7 @@ import Button from './shared/Button'
 
 const Navbar = () => {
   return (
-    <nav className=' flex flex-col w-full h-[182px] pl-[165px] pr-[165px] pt-6'>
+    <nav className=' flex flex-col w-full h-[182px] pl-[165px] pr-[165px] pt-6 max-w-[1440px]'>
       <div className=' flex justify-between items-center'>
         <h2 className=' text-grey-lead font-medium leading-5'>
           Welcome There!

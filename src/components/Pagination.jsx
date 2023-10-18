@@ -2,7 +2,7 @@ import Card from './shared/Card'
 
 const Pagination = () => {
   return (
-    <section className=' w-full h-[560px] mirror-background'>
+    <section className=' w-full h-[560px] mirror-background max-w-[1440px]'>
       <div className=' absolute top-[117px] right-[258px]'>
         <Card
           textAlign='left'
