@@ -1,4 +1,5 @@
 import Featured from './components/Featured'
+import Morbi from './components/Morbi'
 import Navbar from './components/Navbar'
 import Pagination from './components/Pagination'
 
@@ -8,6 +9,7 @@ export default function App() {
       <Navbar />
       <Pagination />
       <Featured />
+      <Morbi />
     </div>
   )
 }

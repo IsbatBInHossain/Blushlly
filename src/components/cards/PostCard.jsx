@@ -9,7 +9,7 @@ const PostCard = ({ subtitle, title, width, height, paragraph }) => {
       style={{ width: `${width}px`, height: `${height}px` }}
     >
       <div className={`flex flex-col text-primary `}>
-        <h3 className=' text-xs uppercase underline leading-[18px] tracking-[16%] mb-2'>
+        <h3 className=' text-xs uppercase underline leading-[18px] underline-offset-[6px] tracking-[0.2em] mb-2'>
           {subtitle}
         </h3>
         <h2

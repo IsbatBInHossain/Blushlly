@@ -7,7 +7,7 @@ const Card = ({ subtitle, title, width }) => {
       style={{ width: `${width}px` }}
     >
       <div className={`flex flex-col text-white `}>
-        <h3 className=' text-xs uppercase underline leading-[18px] tracking-[16%] mb-4'>
+        <h3 className=' text-xs uppercase underline underline-offset-[6px] leading-[18px] tracking-[0.2em] mb-4'>
           {subtitle}
         </h3>
         <h2 className=' text-[32px] font-viadaloka leading-10'>{title}</h2>
@@ -15,7 +15,7 @@ const Card = ({ subtitle, title, width }) => {
           By <span className=' font-medium'>Sarfraj Jasim</span> - 29 July, 2023
         </p>
         <p className=' text-xs leading-5 mt-6'>Continue Reading ➡️</p>
-        <div className=' w-[130px] mt-4 h-px bg-white'></div>
+        <div className=' w-[130px] mt-4 h-px bg-white' />
       </div>
     </div>
   )

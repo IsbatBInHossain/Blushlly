@@ -4,7 +4,7 @@ import PopularPosts from './PopularPosts'
 
 const Featured = () => {
   return (
-    <div className=' w-full h-fit pl-[165px] pr-[165px]'>
+    <div className=' w-full h-fit pl-[165px] pr-[165px] max-w-[1440px]'>
       <Categories />
       <LatestPosts />
       <div className='w-full h-fit object-cover mt-52 mb-16'>

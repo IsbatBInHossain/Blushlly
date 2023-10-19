@@ -24,7 +24,7 @@ const PopularPosts = () => {
             <PostCard
               width='292'
               height='168'
-              subtitle='Hair'
+              subtitle='Skin'
               title='Vivamus placerat Luctus Neque nec Faucibus'
             />
           </div>
@@ -42,7 +42,7 @@ const PopularPosts = () => {
             <PostCard
               width='292'
               height='168'
-              subtitle='Makeup'
+              subtitle='Hair'
               title='Vivamus placerat Luctus Neque nec Faucibus'
             />
           </div>
@@ -60,7 +60,7 @@ const PopularPosts = () => {
             <PostCard
               width='292'
               height='168'
-              subtitle='Tips'
+              subtitle='Makeup'
               title='Vivamus placerat Luctus Neque nec Faucibus'
             />
           </div>
@@ -77,8 +77,8 @@ const PopularPosts = () => {
             <PostCard
               width='410'
               height='168'
-              subtitle='Tips'
-              title='Vivamus placerat Luctus Neque nec Faucibus'
+              subtitle='Skin'
+              title='Vivamus placerat Luctus Neque nec Faucibus Vivamus ultricies arcu Vivamus'
             />
           </div>
         </div>
@@ -95,8 +95,8 @@ const PopularPosts = () => {
             <PostCard
               width='410'
               height='168'
-              subtitle='Skin'
-              title='Sed dignissim quam nulla, at sodales elit venenatis at. In in  fringilla'
+              subtitle='Tips'
+              title='Vivamus placerat Luctus Neque nec Faucibus Vivamus ultricies arcu Vivamus'
             />
           </div>
         </div>

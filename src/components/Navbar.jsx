@@ -1,3 +1,4 @@
+import { icons } from '../lib/data/links'
 import Button from './shared/Button'
 
 const Navbar = () => {
@@ -9,32 +10,14 @@ const Navbar = () => {
         </h2>
         <div className=' flex items-center'>
           <ul className=' flex gap-3'>
-            <li className=' w-8 h-8 object-contain'>
-              <img src='/assets/icons/facebook.svg' alt='facebook' />
-            </li>
-            <li className=' w-8 h-8 object-contain border border-primary rounded-full flex justify-center items-center'>
-              <img
-                src='/assets/icons/instagram.svg'
-                alt='instagram'
-                className=' w-5 h-5'
-              />
-            </li>
-            <li className=' w-8 h-8 object-contain border border-primary rounded-full flex justify-center items-center'>
-              <img
-                src='/assets/icons/threads.svg'
-                alt='threads'
-                className=' w-5 h-5'
-              />
-            </li>
-            <li className=' w-8 h-8 object-contain'>
-              <img src='/assets/icons/twitter.svg' alt='twitter' />
-            </li>
-            <li className=' w-8 h-8 object-contain'>
-              <img src='/assets/icons/pinterest.svg' alt='pinterest' />
-            </li>
-            <li className=' w-8 h-8 object-contain'>
-              <img src='/assets/icons/linkdin.svg' alt='linkdin' />
-            </li>
+            {icons.map(icon => (
+              <li
+                key={icon.name}
+                className=' w-8 h-8 object-contain border border-primary rounded-full flex justify-center items-center'
+              >
+                <img src={icon.path} alt={icon.name} className=' w-5 h-5' />
+              </li>
+            ))}
           </ul>
           <div className=' w-[2px] h-9 bg-grey-light ml-6 mr-6' />
           <Button btnText={'Subscribe'} />
