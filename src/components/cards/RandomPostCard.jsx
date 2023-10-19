@@ -11,7 +11,6 @@ const RandomPostCard = ({
   direction,
   flipped,
 }) => {
-  if (flipped) console.log('elo')
   return (
     <div
       className={`flex h-[496px] ${

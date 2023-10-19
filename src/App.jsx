@@ -1,4 +1,5 @@
 import Featured from './components/Featured'
+import InstaFeed from './components/InstaFeed'
 import Morbi from './components/Morbi'
 import Navbar from './components/Navbar'
 import Pagination from './components/Pagination'
@@ -12,6 +13,7 @@ export default function App() {
       <Featured />
       <Morbi />
       <RandomPosts />
+      <InstaFeed />
     </div>
   )
 }

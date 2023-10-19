@@ -20,7 +20,7 @@ const Navbar = () => {
             ))}
           </ul>
           <div className=' w-[2px] h-9 bg-grey-light ml-6 mr-6' />
-          <Button btnText={'Subscribe'} />
+          <Button btnText={'Subscribe'} size='sm' />
         </div>
       </div>
       <div className=' w-full h-px bg-grey-light mt-6 mb-4' />

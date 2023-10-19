@@ -77,6 +77,9 @@ const RandomPosts = () => {
           <div className=' w-full h-px dashed-border'></div>
         </div>
       </div>
+      <button className='bg-black mt-16 ml-auto mr-auto p-4 pl-12 pr-12 text-white text-medium rounded-full leading-5'>
+        Load More
+      </button>
     </section>
   )
 }

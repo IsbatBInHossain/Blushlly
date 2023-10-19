@@ -1,9 +1,15 @@
 import PropTypes from 'prop-types'
 
-const Button = ({ btnText }) => {
+const Button = ({ btnText, size }) => {
   return (
     <button
-      className={` bg-black p-2 pl-4 pr-4 text-white text-medium rounded-full leading-5`}
+      className={`bg-black ${
+        size === 'sm'
+          ? 'p-2 pl-4 pr-4 text-medium'
+          : size === 'md'
+          ? 'p-4 pl-12 pr-12 text-medium'
+          : 'p-4 text-lg font-viadaloka'
+      } text-white  rounded-full leading-5 w-full`}
     >
       {btnText}
     </button>
@@ -12,6 +18,7 @@ const Button = ({ btnText }) => {
 
 Button.propTypes = {
   btnText: PropTypes.string.isRequired,
+  size: PropTypes.oneOf(['sm', 'md', 'lg']).isRequired,
 }
 
 export default Button
