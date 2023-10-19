@@ -7,7 +7,7 @@ const Pagination = () => {
         <Card
           subtitle='skin'
           title='Six Hyaluronic Serums For Glowing Summer Skin Vivamus Placerat'
-          width='480px'
+          width='480'
         />
       </div>
       <div className=' pl-[104px] pr-[104px] w-full h-full flex justify-between items-center z-10'>

@@ -11,10 +11,14 @@ const PopularPosts = () => {
         <div className=' h-px w-full bg-primary' />
       </div>
 
-      <div className='grid grid-cols-6 grid-rows-[7] gap-[30px] items-center mt-10'>
-        <div className=' relative col-span-2 row-span-3'>
-          <div className=' w-full h-[250px] object-contain overflow-hidden'>
-            <img src='/assets/images/Tips.jpg' alt='Popular post' />
+      <div className='grid grid-cols-6 grid-rows-[7] gap-y-[113px] gap-x-[30px] items-center mt-10 justify-items-center'>
+        <div className=' w-full relative col-span-2 row-span-3'>
+          <div className='  overflow-hidden'>
+            <img
+              src='/assets/images/Tips.jpg'
+              alt='Popular post'
+              className=' w-full h-[250px] object-cover'
+            />
           </div>
           <div className='absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2'>
             <PostCard
@@ -26,9 +30,13 @@ const PopularPosts = () => {
           </div>
         </div>
 
-        <div className=' relative col-span-2 row-span-3'>
-          <div className=' w-full h-[250px] object-contain overflow-hidden'>
-            <img src='/assets/images/Popular Post 2.jpg' alt='Popular post' />
+        <div className=' w-full relative col-span-2 row-span-3'>
+          <div className=' overflow-hidden'>
+            <img
+              src='/assets/images/Popular Post 2.jpg'
+              alt='Popular post'
+              className=' w-full h-[250px] object-cover '
+            />
           </div>
           <div className='absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2'>
             <PostCard
@@ -40,9 +48,13 @@ const PopularPosts = () => {
           </div>
         </div>
 
-        <div className=' relative col-span-2 row-span-3'>
-          <div className=' w-full h-[250px] object-contain overflow-hidden'>
-            <img src='/assets/images/Popular Post 3.jpg' alt='Popular post' />
+        <div className=' w-full relative col-span-2 row-span-3'>
+          <div className=' overflow-hidden'>
+            <img
+              src='/assets/images/Popular Post 3.jpg'
+              alt='Popular post'
+              className=' w-full h-[250px] object-cover'
+            />
           </div>
           <div className='absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2'>
             <PostCard
@@ -53,22 +65,31 @@ const PopularPosts = () => {
             />
           </div>
         </div>
-        <div className=' relative col-span-3 row-span-4'>
-          <div className=' w-full h-[490px] object-fit overflow-hidden mt-[131px]'>
-            <img src='/assets/images/Popular Post 4.jpg' alt='Popular post' />
+        <div className=' w-full relative col-span-3 row-span-4'>
+          <div className='overflow-hidden'>
+            <img
+              src='/assets/images/Popular Post 4.jpg'
+              alt='Popular post'
+              className=' w-full h-[360px] object-cover'
+            />
           </div>
           <div className='absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2'>
             <PostCard
               width='410'
               height='168'
-              subtitle='Skin'
-              title='Sed dignissim quam nulla, at sodales elit venenatis at. In in  fringilla'
+              subtitle='Tips'
+              title='Vivamus placerat Luctus Neque nec Faucibus'
             />
           </div>
         </div>
+
         <div className=' relative col-span-3 row-span-4'>
-          <div className=' w-full h-[490px] object-contain overflow-hidden mt-[131px]'>
-            <img src='/assets/images/Popular Post 5.jpg' alt='Popular post' />
+          <div className='   overflow-hidden'>
+            <img
+              src='/assets/images/Popular Post 5.jpg'
+              alt='Popular post'
+              className=' w-full h-[360px] object-cover'
+            />
           </div>
           <div className='absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2'>
             <PostCard
