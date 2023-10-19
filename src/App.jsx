@@ -2,6 +2,7 @@ import Featured from './components/Featured'
 import Morbi from './components/Morbi'
 import Navbar from './components/Navbar'
 import Pagination from './components/Pagination'
+import RandomPosts from './components/RandomPosts'
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Pagination />
       <Featured />
       <Morbi />
+      <RandomPosts />
     </div>
   )
 }
