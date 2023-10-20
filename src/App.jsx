@@ -4,6 +4,7 @@ import Morbi from './components/Morbi'
 import Navbar from './components/Navbar'
 import Pagination from './components/Pagination'
 import RandomPosts from './components/RandomPosts'
+import SubsCribe from './components/SubsCribe'
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Morbi />
       <RandomPosts />
       <InstaFeed />
+      <SubsCribe />
     </div>
   )
 }
