@@ -1,4 +1,5 @@
 import Featured from './components/Featured'
+import Footer from './components/Footer'
 import InstaFeed from './components/InstaFeed'
 import Morbi from './components/Morbi'
 import Navbar from './components/Navbar'
@@ -8,7 +9,7 @@ import SubsCribe from './components/SubsCribe'
 
 export default function App() {
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center justify-center'>
       <Navbar />
       <Pagination />
       <Featured />
@@ -16,6 +17,7 @@ export default function App() {
       <RandomPosts />
       <InstaFeed />
       <SubsCribe />
+      <Footer />
     </div>
   )
 }

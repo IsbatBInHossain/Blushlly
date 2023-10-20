@@ -2,7 +2,7 @@ import { icons } from '../lib/data/links'
 
 const Morbi = () => {
   return (
-    <div className=' w-full max-w-[1440px] h-auto mt-32 bg-grey-light flex justify-center items-center '>
+    <div className=' w-full max-w-[1536px] h-auto mt-32 bg-grey-light flex justify-center items-center '>
       <div className=' flex pt-[53px] pb-[53px] gap-8'>
         <div className=' w-[190px] h-[190px] rounded-full overflow-hidden'>
           <img

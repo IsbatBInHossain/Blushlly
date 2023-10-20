@@ -28,7 +28,7 @@
     height: 100%;
     background-image: url('/assets/images/Pagination.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     transform: scaleX(-1);
     z-index: -1;
   }

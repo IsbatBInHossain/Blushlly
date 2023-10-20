@@ -2,7 +2,7 @@ import RandomPostCard from './cards/RandomPostCard'
 
 const RandomPosts = () => {
   return (
-    <section className=' w-full h-fit pl-[165px] mt-16 pr-[165px] max-w-[1440px] flex flex-col'>
+    <section className=' w-full h-fit pl-[165px] mt-16 pr-[165px] max-w-[1536px] flex flex-col'>
       <div className='w-full h-fit object-cover'>
         <img src='/assets/images/Ad 2.jpg' alt='Advertisement' />
       </div>
@@ -52,7 +52,7 @@ const RandomPosts = () => {
             paragraph='Donec eget leo laoreet, faucibus ante et, finibus orci. Nam pulvinar felis vel mi aliquam, vitae dapibus odio euismod. Cras bibendum nisi a interdum facilisis…..'
             width='666'
             height='368'
-            imgSrc='/assets/images/Random Post 4.jpg'
+            imgSrc='/assets/images/Frame4.png'
             direction='right'
           />
           <div className=' w-full h-px dashed-border'></div>

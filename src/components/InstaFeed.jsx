@@ -34,7 +34,7 @@ const InstaFeed = () => {
         </div>
         <div className=' w-[260px] h-[260px]'>
           <img
-            src='/assets/images/Random Post 4.jpg'
+            src='/assets/images/Frame4.png'
             alt='instagram photo'
             className=' w-full h-full object-cover'
           />

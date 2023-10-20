@@ -2,7 +2,7 @@ import Button from './shared/Button'
 
 const SubsCribe = () => {
   return (
-    <div className=' w-full max-w-[1440px] h-auto mt-20 bg-grey-light flex flex-col pt-[72px] pb-[72px] justify-center items-center text-center'>
+    <div className=' w-full max-w-[1536px] h-auto mt-20 bg-grey-light flex flex-col pt-[72px] pb-[72px] justify-center items-center text-center'>
       <h2 className=' font-viadaloka text-3xl w-[20%]'>
         Subscribe For Best Beauty Tips
       </h2>
