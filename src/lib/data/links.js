@@ -12,8 +12,8 @@ export const icons = [
     path: '/assets/icons/threads.svg',
   },
   {
-    name: 'X',
-    path: '/assets/icons/X.svg',
+    name: 'Twitter',
+    path: '/assets/icons/twitter.svg',
   },
   {
     name: 'Pinterest',

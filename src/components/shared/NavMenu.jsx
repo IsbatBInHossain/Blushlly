@@ -7,37 +7,27 @@ const NavMenu = ({ isBlack }) => {
         isBlack ? 'text-primary' : 'text-white'
       }`}
     >
-      <h1 className=' font-quinshy text-[56px] leading-[70px]'>Blúshlly</h1>
-      <ul className=' flex items-center gap-6 font-medium'>
-        <li className=' leading-5'>
-          <a href='#' target='_blank' rel='noopener noreferrer'>
-            Home
-          </a>
+      <h1 className='font-quinshy text-[56px] leading-[70px] cursor-pointer'>
+        Blúshlly
+      </h1>
+      <ul className='flex items-center gap-6 font-medium'>
+        <li className='leading-5'>
+          <a href='#'>Home</a>
         </li>
-        <li className=' leading-5'>
-          <a href='#' target='_blank' rel='noopener noreferrer'>
-            Categories
-          </a>
+        <li className='leading-5'>
+          <a href='#'>Categories</a>
         </li>
-        <li className=' leading-5'>
-          <a href='#' target='_blank' rel='noopener noreferrer'>
-            Makeup
-          </a>
+        <li className='leading-5'>
+          <a href='#'>Makeup</a>
         </li>
-        <li className=' leading-5'>
-          <a href='#' target='_blank' rel='noopener noreferrer'>
-            Blog
-          </a>
+        <li className='leading-5'>
+          <a href='#'>Blog</a>
         </li>
-        <li className=' leading-5'>
-          <a href='#' target='_blank' rel='noopener noreferrer'>
-            About
-          </a>
+        <li className='leading-5'>
+          <a href='#'>About</a>
         </li>
-        <li className=' leading-5'>
-          <a href='#' target='_blank' rel='noopener noreferrer'>
-            Contact Us
-          </a>
+        <li className='leading-5'>
+          <a href='#'>Contact Us</a>
         </li>
       </ul>
     </div>

@@ -12,11 +12,17 @@ const LatestPosts = () => {
       </div>
 
       <div className='flex justify-between gap-[30px] items-center mt-10'>
-        <div className=' relative'>
-          <div className=' w-full h-[250px] object-contain'>
-            <img src='/assets/images/Latest Post 1.jpg' alt='Latest post' />
+        <div className=' relative '>
+          <div className='overflow-hidden'>
+            <div className=' w-full h-[250px] object-contain hover:scale-125 duration-[1500ms] cursor-pointer'>
+              <img
+                src='/assets/images/Latest Post 1.jpg'
+                alt='Latest post'
+                loading='lazy'
+              />
+            </div>
           </div>
-          <div className='absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2'>
+          <div className='absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 z-10'>
             <PostCard
               width='292'
               height='168'
@@ -26,9 +32,15 @@ const LatestPosts = () => {
           </div>
         </div>
 
-        <div className=' relative'>
-          <div className=' w-full h-[250px] object-contain'>
-            <img src='/assets/images/Latest Post 2.jpg' alt='Latest post' />
+        <div className=' relative group cursor-pointer'>
+          <div className='overflow-hidden'>
+            <div className=' w-full h-[250px] object-contain group-hover:scale-125 duration-[1500ms] '>
+              <img
+                src='/assets/images/Latest Post 2.jpg'
+                alt='Latest post'
+                loading='lazy'
+              />
+            </div>
           </div>
           <div className='absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2'>
             <PostCard
@@ -40,11 +52,17 @@ const LatestPosts = () => {
           </div>
         </div>
 
-        <div className=' relative'>
-          <div className=' w-full h-[250px] object-contain'>
-            <img src='/assets/images/Latest Post 3.jpg' alt='Latest post' />
+        <div className=' relative group cursor-pointer'>
+          <div className='overflow-hidden'>
+            <div className=' w-full h-[250px] object-contain group-hover:scale-125 duration-[1500ms] '>
+              <img
+                src='/assets/images/Latest Post 3.jpg'
+                alt='Latest post'
+                loading='lazy'
+              />
+            </div>
           </div>
-          <div className='absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2'>
+          <div className='absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 cursor-pointer'>
             <PostCard
               width='292'
               height='168'
@@ -55,9 +73,15 @@ const LatestPosts = () => {
         </div>
       </div>
 
-      <div className=' relative'>
-        <div className=' w-full h-[490px] object-fit overflow-hidden mt-[131px]'>
-          <img src='/assets/images/Latest Post 4.jpg' alt='Latest post' />
+      <div className=' relative group cursor-pointer'>
+        <div className=' overflow-hidden'>
+          <div className=' w-full h-[490px] object-fit overflow-hidden group-hover:scale-125 duration-[1500ms] mt-[131px]'>
+            <img
+              src='/assets/images/Latest Post 4.jpg'
+              alt='Latest post'
+              loading='lazy'
+            />
+          </div>
         </div>
         <div className='absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2'>
           <PostCard

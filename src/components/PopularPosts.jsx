@@ -12,12 +12,13 @@ const PopularPosts = () => {
       </div>
 
       <div className='grid grid-cols-6 grid-rows-[7] gap-y-[113px] gap-x-[30px] items-center mt-10 justify-items-center'>
-        <div className=' w-full relative col-span-2 row-span-3'>
+        <div className=' w-full relative col-span-2 row-span-3 group cursor-pointer'>
           <div className='  overflow-hidden'>
             <img
               src='/assets/images/Tips.jpg'
               alt='Popular post'
-              className=' w-full h-[250px] object-cover'
+              className=' w-full h-[250px] object-cover group-hover:scale-110 duration-1000'
+              loading='lazy'
             />
           </div>
           <div className='absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2'>
@@ -30,12 +31,13 @@ const PopularPosts = () => {
           </div>
         </div>
 
-        <div className=' w-full relative col-span-2 row-span-3'>
+        <div className=' w-full relative col-span-2 row-span-3 group cursor-pointer'>
           <div className=' overflow-hidden'>
             <img
               src='/assets/images/Popular Post 2.jpg'
               alt='Popular post'
-              className=' w-full h-[250px] object-cover '
+              className=' w-full h-[250px] object-cover group-hover:scale-110 duration-1000'
+              loading='lazy'
             />
           </div>
           <div className='absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2'>
@@ -48,12 +50,13 @@ const PopularPosts = () => {
           </div>
         </div>
 
-        <div className=' w-full relative col-span-2 row-span-3'>
+        <div className=' w-full relative col-span-2 row-span-3 group cursor-pointer'>
           <div className=' overflow-hidden'>
             <img
               src='/assets/images/Popular Post 3.jpg'
               alt='Popular post'
-              className=' w-full h-[250px] object-cover'
+              className=' w-full h-[250px] object-cover group-hover:scale-110 duration-1000'
+              loading='lazy'
             />
           </div>
           <div className='absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2'>
@@ -65,12 +68,13 @@ const PopularPosts = () => {
             />
           </div>
         </div>
-        <div className=' w-full relative col-span-3 row-span-4'>
+        <div className=' w-full relative col-span-3 row-span-4 group cursor-pointer'>
           <div className='overflow-hidden'>
             <img
               src='/assets/images/Popular Post 4.jpg'
               alt='Popular post'
-              className=' w-full h-[360px] object-cover'
+              className=' w-full h-[360px] object-cover group-hover:scale-110 duration-1000'
+              loading='lazy'
             />
           </div>
           <div className='absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2'>
@@ -83,12 +87,13 @@ const PopularPosts = () => {
           </div>
         </div>
 
-        <div className=' relative col-span-3 row-span-4'>
-          <div className='   overflow-hidden'>
+        <div className=' relative col-span-3 row-span-4 group cursor-pointer'>
+          <div className='overflow-hidden'>
             <img
               src='/assets/images/Popular Post 5.jpg'
               alt='Popular post'
-              className=' w-full h-[360px] object-cover'
+              className=' w-full h-[360px] object-cover group-hover:scale-110 duration-1000'
+              loading='lazy'
             />
           </div>
           <div className='absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2'>

@@ -9,7 +9,7 @@ const Button = ({ btnText, size }) => {
           : size === 'md'
           ? 'p-4 pl-12 pr-12 text-medium'
           : 'p-4 text-lg font-viadaloka'
-      } text-white  rounded-full leading-5 w-full`}
+      } text-white  rounded-full leading-5 w-full hover:bg-grey-ash hover:text-grey-silver duration-500`}
     >
       {btnText}
     </button>

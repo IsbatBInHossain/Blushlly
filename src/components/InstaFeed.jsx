@@ -15,28 +15,32 @@ const InstaFeed = () => {
           <img
             src='/assets/images/Popular Post 3.jpg'
             alt='instagram photo'
-            className=' w-full h-full object-cover'
+            className=' w-full h-full object-cover hover:scale-110 duration-1000 cursor-pointer'
+            loading='lazy'
           />
         </div>
         <div className=' w-[260px] h-[260px]'>
           <img
             src='/assets/images/Popular Post 4.jpg'
             alt='instagram photo'
-            className=' w-full h-full object-cover'
+            className=' w-full h-full object-cover hover:scale-110 duration-1000 cursor-pointer'
+            loading='lazy'
           />
         </div>
         <div className=' w-[260px] h-[260px]'>
           <img
             src='/assets/images/Tips.jpg'
             alt='instagram photo'
-            className=' w-full h-full object-cover'
+            className=' w-full h-full object-cover hover:scale-110 duration-1000 cursor-pointer'
+            loading='lazy'
           />
         </div>
         <div className=' w-[260px] h-[260px]'>
           <img
             src='/assets/images/Frame4.png'
             alt='instagram photo'
-            className=' w-full h-full object-cover'
+            className=' w-full h-full object-cover hover:scale-110 duration-1000 cursor-pointer'
+            loading='lazy'
           />
         </div>
       </div>

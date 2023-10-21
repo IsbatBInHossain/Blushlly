@@ -11,7 +11,7 @@ const Footer = () => {
           <ul className=' mt-[26px] flex flex-col  '>
             {footerData.categories.map(category => (
               <li key={category.name}>
-                <div className=' flex justify-between pt-5 pb-4 items-center font-viadaloka leading-5 border-b border-white'>
+                <div className=' flex justify-between pt-5 pb-4 items-center cursor-pointer font-viadaloka leading-5 border-b border-white'>
                   <h4>{category.name}</h4>
                   <p>({category.postNo})</p>
                 </div>
@@ -29,6 +29,7 @@ const Footer = () => {
               src='/assets/icons/search-white.svg'
               alt='search'
               aria-description='search button'
+              loading='lazy'
               className=' absolute w-6 h-6 top-[14px] right-4'
             />
           </div>
@@ -39,14 +40,15 @@ const Footer = () => {
           </h3>
           <div className='flex mt-[47px] flex-col gap-6'>
             <div className='flex gap-4 h-100 overflow-hidden'>
-              <div className='w-[100px] h-[100px] p-0'>
+              <div className='w-[100px] h-[100px] p-0 '>
                 <img
                   src='/assets/images/Popular Post 4.jpg'
                   alt='Popular post'
                   className=' w-full h-full object-cover scale-110'
+                  loading='lazy'
                 />
               </div>
-              <div className=' mr-4 flex flex-col gap-4'>
+              <div className=' mr-4 flex flex-col gap-4 cursor-pointer'>
                 <h4 className=' font-viadaloka leading-[22px] max-w-[20ch]'>
                   Vivamus placerat Luctus Neque nec Faucibus
                 </h4>
@@ -63,9 +65,10 @@ const Footer = () => {
                   src='/assets/images/Frame4.png'
                   alt='Popular post'
                   className=' w-full h-full object-cover scale-110'
+                  loading='lazy'
                 />
               </div>
-              <div className=' mr-4 flex flex-col gap-4'>
+              <div className=' mr-4 flex flex-col gap-4 cursor-pointer'>
                 <h4 className=' font-viadaloka leading-[22px] max-w-[20ch]'>
                   Vivamus placerat Luctus Neque nec Faucibus
                 </h4>
@@ -82,9 +85,10 @@ const Footer = () => {
                   src='/assets/images/Tips.jpg'
                   alt='Popular post'
                   className=' w-full h-full object-cover scale-110'
+                  loading='lazy'
                 />
               </div>
-              <div className=' mr-4 flex flex-col gap-4'>
+              <div className=' mr-4 flex flex-col gap-4 cursor-pointer'>
                 <h4 className=' font-viadaloka leading-[22px] max-w-[20ch]'>
                   Vivamus placerat Luctus Neque nec Faucibus
                 </h4>
@@ -99,11 +103,12 @@ const Footer = () => {
           <h3 className=' font-viadaloka leading-5 uppercase'>Gallery</h3>
           <div className=' grid grid-cols-3 grid-rows-2 gap-4 mt-[47px]'>
             {footerData.gallery.map((imgSrc, index) => (
-              <div className=' w-[100px] h-[100px]' key={index}>
+              <div className=' w-[100px] h-[100px] cursor-pointer' key={index}>
                 <img
                   src={imgSrc}
                   alt='gallery image'
                   className=' w-full h-full object-cover'
+                  loading='lazy'
                 />
               </div>
             ))}
@@ -115,7 +120,7 @@ const Footer = () => {
             {footerData.tags.map((tag, index) => (
               <button
                 key={index}
-                className=' w-[75px] h-[29px] bg-grey-ash flex justify-center items-center rounded-full text-grey-silver text-xs leading-[23px]'
+                className=' w-[75px] h-[29px] bg-grey-ash flex justify-center items-center rounded-full text-grey-silver text-xs leading-[23px] hover:animate-wiggle hover:animate-twice hover:animate-duration-300 hover:animate-delay-100'
               >
                 {tag}
               </button>
@@ -133,12 +138,12 @@ const Footer = () => {
           {icons.map(icon => (
             <li
               key={icon.name}
-              className=' w-8 h-8 object-contain border border-white rounded-full flex justify-center items-center'
+              className=' w-8 h-8 object-contain border border-white rounded-full flex justify-center items-center hover:fliter hover:invert hover:bg-primary cursor-pointer duration-500'
             >
               <img
                 src={icon.path}
                 alt={icon.name}
-                className=' w-5 h-5 filter invert'
+                className=' w-5 h-5 filter invert '
               />
             </li>
           ))}

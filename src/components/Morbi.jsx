@@ -8,7 +8,8 @@ const Morbi = () => {
           <img
             src='/assets/images/Morbi Porttitor.jpg'
             alt='Morbi Porttitor'
-            className=' w-full h-full object-cover scale-125 object-[center_20%] filter grayscale'
+            loading='lazy'
+            className=' w-full h-full object-cover scale-125 object-[center_20%] filter grayscale duration-700 hover:filter-none cursor-pointer'
           />
         </div>
         <div className=' flex flex-col justify-start'>
@@ -25,10 +26,13 @@ const Morbi = () => {
             scelerisque ante nec ultricies. Vivamus tincidunt nibh velit!
           </p>
           <div className=' flex justify-between items-center mt-5'>
-            <ul className=' flex justify-between gap-6'>
+            <ul className=' flex justify-between gap-2'>
               {icons.map(icon => (
-                <li className=' w-5 h-5 object-contain' key={icon.name}>
-                  <img src={icon.path} alt={icon.name} />
+                <li
+                  className=' w-8 h-8 object-contain flex justify-center duration-500 items-center hover:animate-bounce hover:animate-once hover:animate-duration-500 hover:animate-delay-300 cursor-pointer rounded-full'
+                  key={icon.name}
+                >
+                  <img src={icon.path} alt={icon.name} className='w-5 h-5 ' />
                 </li>
               ))}
             </ul>

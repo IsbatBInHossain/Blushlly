@@ -9,21 +9,19 @@ const RandomPostCard = ({
   height,
   imgSrc,
   direction,
-  flipped,
 }) => {
   return (
     <div
-      className={`flex h-[496px] ${
+      className={`flex cursor-pointer  h-[496px] ${
         direction == 'right' ? 'flex-row-reverse' : ''
       }`}
     >
-      <div className=' w-1/2'>
+      <div className=' w-1/2 overflow-hidden'>
         <img
           src={imgSrc}
           alt='Random Post'
-          className={`w-full h-full object-cover ${
-            flipped ? ' transform scale-x-[-1]' : ''
-          }`}
+          loading='lazy'
+          className={`w-full h-full object-cover hover:scale-125 duration-[2000ms]`}
         />
       </div>
       <div className=' w-1/2 bg-white relative'>
@@ -54,7 +52,6 @@ RandomPostCard.propTypes = {
   paragraph: PropTypes.string,
   imgSrc: PropTypes.string.isRequired,
   direction: PropTypes.oneOf(['left', 'right']).isRequired,
-  flipped: PropTypes.bool,
 }
 
 RandomPostCard.defaultProps = {
